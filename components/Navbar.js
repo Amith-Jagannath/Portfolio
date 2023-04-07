@@ -7,6 +7,8 @@ import NavItem from "./NavItem";
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "/about" },
+  { text: "Projects", href: "/projects" },
+  { text: "Skills", href: "/skills" },
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
@@ -15,10 +17,10 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className={`nav`}>
+      <nav>
         <Link legacyBehavior href={"/"}>
           <a>
-            <h1 className="logo">CodeWithMarish</h1>
+            <h1 className="logo">Amith JS</h1>
           </a>
         </Link>
         <div

@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -95,4 +96,7 @@ nav {
   .nav__link:hover:before {
     width: 100%;
   }
+}
+.pro {
+  width: 45%;
 }
