@@ -9,6 +9,13 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
 
 a {
   text-decoration: none;

@@ -29,34 +29,31 @@ export const Herosection = () => {
     };
   }, []);
   return (
-    <div className="flex py-32  ">
-      <div className="w-1/2 flex-col shrink flex-wrap ">
-        <div className="card rounded-none text-center">
-          <h1 className="text-5xl pb-9">A Software Developer</h1>
-          <div className="flex items-center justify-center">
-            <p
-              className={`text-2xl  ${
-                isVisible
-                  ? "opacity-100 transition-opacity duration-1000"
-                  : "opacity-0"
-              }`}
-            >
-              {text}
-            </p>
-          </div>
+    <div className="py-32 container1  ">
+      <div className=" div1 card rounded-none text-center w-1/2">
+        <h1 className="text-5xl pb-9">A Software Developer</h1>
+        <div className="flex items-center justify-center">
+          <p
+            className={`text-2xl  ${
+              isVisible
+                ? "opacity-100 transition-opacity duration-1000"
+                : "opacity-0"
+            }`}
+          >
+            {text}
+          </p>
         </div>
       </div>
-      <div className="w-1/2 shrink flex-wrap">
-        <div className="card rounded-none text-center">
-          <h1>This is AJS image</h1>
 
-          <Image
-            src="/herosectionImg.jpg"
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
-        </div>
+      <div className="div2 card rounded-none text-center w-1/2">
+        <h1 className="mb-20">This is AJS image</h1>
+
+        <Image
+          src="/next.svg"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
       </div>
     </div>
   );
