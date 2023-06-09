@@ -5,7 +5,9 @@ import styles from "@/styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import { Herosection } from "../components/Herosection";
 import { Skills } from "../components/Skills";
-import {Projects } from "../components/Projects"
+import { Projects } from "../components/Projects";
+import { Contact } from "../components/Contact";
+import { Footer } from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
       <Navbar />
       <Herosection />
       <Skills />
-      <Projects/>
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

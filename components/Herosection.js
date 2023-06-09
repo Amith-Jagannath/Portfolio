@@ -44,12 +44,9 @@ export const Herosection = () => {
           </p>
         </div>
       </div>
-
       <div className="div2 card rounded-none text-center w-1/2">
-        <h1 className="mb-20">This is AJS image</h1>
-
         <Image
-          src="/next.svg"
+          src="/coder.png"
           alt="Picture of the author"
           width={500}
           height={500}
