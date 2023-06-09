@@ -31,6 +31,14 @@ export const Herosection = () => {
 
   return (
     <div className="py-32 container1  ">
+      <div className="div2 card rounded-none text-center w-1/2">
+        <Image
+          src="/coder.png"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
+      </div>
       <div className=" div1 card rounded-none text-center w-1/2">
         <h1 className="text-5xl pb-9">A Software Developer</h1>
         <div className="flex items-center justify-center">
@@ -44,14 +52,6 @@ export const Herosection = () => {
             {text}
           </p>
         </div>
-      </div>
-      <div className="div2 card rounded-none text-center w-1/2">
-        <Image
-          src="/coder.png"
-          alt="Picture of the author"
-          width={500}
-          height={500}
-        />
       </div>
     </div>
   );
