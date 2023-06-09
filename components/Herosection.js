@@ -9,7 +9,7 @@ export const Herosection = () => {
     const timeoutId = setTimeout(() => setIsVisible(true), 1000);
 
     const textArray =
-      "Hey, my name is Amith Jagannath Soorenji and I'm a third-year computer science student. I'm passionate about using technology to solve real-world problems and make a positive impact in people's lives.".split(
+      "Hei, my name is Amith Jagannath Soorenji and I'm a third-year computer science student. I'm passionate about using technology to solve real-world problems and make a positive impact in people's lives.\n".split(
         ""
       );
     let currentIndex = 0;
@@ -21,13 +21,14 @@ export const Herosection = () => {
       } else {
         clearInterval(intervalId);
       }
-    }, 100);
+    }, 50);
 
     return () => {
       clearTimeout(timeoutId);
       clearInterval(intervalId);
     };
   }, []);
+
   return (
     <div className="py-32 container1  ">
       <div className=" div1 card rounded-none text-center w-1/2">

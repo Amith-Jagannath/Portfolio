@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./Skills.module.css";
 export const Skills = () => {
   return (
-    <div class="">
+    <div class="mb-32">
       <h2 class="text-center text-3xl">SKILLS</h2>
       <div class="text-start mx-10">
         <h3 class="text-2xl mx-2">Languages</h3>
