@@ -108,3 +108,7 @@ nav {
 .pro {
   width: 45%;
 }
+.shrink-input {
+  max-width: 500px; /* Set the maximum width for the input */
+  flex-shrink: 1; /* Allow the input to shrink when it wraps */
+}

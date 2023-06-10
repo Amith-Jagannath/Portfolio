@@ -14,9 +14,9 @@ export const Contact = () => {
           width={500}
           height={500}
         />
-        <div class="">
+        <div class="flex flex-wrap">
           <form
-            class="flex-col flex  items-left grid"
+            class="flex-col flex  flex-wrap items-left grid"
             action="https://formsubmit.co/amyth2002@gmail.com"
             method="POST"
           >
@@ -26,13 +26,13 @@ export const Contact = () => {
             <input
               type="text"
               name="name"
-              class="bg-slate-200 rounded-lg p-4 flex-shrink-0 w-full sm:w-auto px-3 py-2"
+              class="bg-slate-200 rounded-lg p-4 flex-shrink-0 w-full sm:w-auto px-3 py-2 shrink-input"
               size="35"
             />
             <label>Email</label>
             <input
               type="text"
-              class="bg-slate-200 rounded-lg p-4 "
+              class="bg-slate-200 rounded-lg p-4 shrink-input "
               name="Email"
               size="35"
             />
@@ -42,7 +42,7 @@ export const Contact = () => {
               id=""
               cols="7"
               rows="4"
-              class="bg-slate-200 rounded-lg p-4"
+              class="bg-slate-200 rounded-lg p-4 shrink-input"
             ></textarea>
             <div class="flex justify-center m-5">
               <button class="bg-indigo-400  items-center justify-center rounded-lg px-8 py-3">
