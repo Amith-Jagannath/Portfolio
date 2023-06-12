@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Skills.module.css";
+import classes from "../components/Skills.module.css";
 export const Skills = () => {
   return (
     <div class="mb-32">

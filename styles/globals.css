@@ -32,7 +32,12 @@ nav {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
+}
+.lighttheme {
+  background: #f1f1f1;
+}
+.darktheme {
+  background: rgb(14, 6, 6);
 }
 .nav__menu-bar {
   display: flex;
@@ -57,7 +62,6 @@ nav {
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: #f1f1f1;
 }
 .nav__menu-list.active {
   right: 0;
@@ -111,4 +115,50 @@ nav {
 .shrink-input {
   max-width: 500px; /* Set the maximum width for the input */
   flex-shrink: 1; /* Allow the input to shrink when it wraps */
+}
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left a {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.right span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left {
+    margin-bottom: 10px;
+  }
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}
+
+/* Media query for screens with a minimum width of 1200px */
+@media (min-width: 1200px) {
+  input {
+    width: 300px;
+  }
 }
