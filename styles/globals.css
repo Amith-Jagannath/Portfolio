@@ -162,3 +162,9 @@ nav {
     width: 300px;
   }
 }
+.resizer {
+  transition: 0.5s;
+}
+.resizer:hover {
+  width: 550px;
+}

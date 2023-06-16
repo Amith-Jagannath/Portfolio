@@ -31,7 +31,7 @@ export const Herosection = () => {
 
   return (
     <div className="py-32 container1  ">
-      <div className="div2 card rounded-none text-center w-1/2">
+      <div className="div2 card rounded-none text-center w-1/2 ">
         <Image
           src="/coder.png"
           alt="Picture of the author"

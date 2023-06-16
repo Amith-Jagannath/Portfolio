@@ -8,6 +8,7 @@ import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
+import Divider from "./Divider";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -15,9 +16,13 @@ export default function Home() {
     <>
       <Navbar />
       <Herosection />
+      <Divider />
       <Skills />
+      <Divider />
       <Projects />
+      <Divider />
       <Contact />
+      <Divider />
       <Footer />
     </>
   );
