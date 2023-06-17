@@ -3,13 +3,13 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
-import { Herosection } from "./Herosection";
-import { Skills } from "./Skills";
+import Herosection from "./Herosection";
+import Skills from "./Skills";
 import Projects from "./Projects";
-import { Contact } from "./Contact";
-import { Footer } from "./Footer";
+import Contact from "./Contact";
+import Footer from "./Footer";
 import Divider from "./Divider";
-import { Loading } from "./Loading";
+import Loading from "./Loading";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

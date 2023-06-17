@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export const Contact = () => {
+function Contact() {
   return (
     <div className="m-10">
       <h1 className="text-center text-3xl">Contact</h1>
@@ -54,4 +54,6 @@ export const Contact = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Contact;

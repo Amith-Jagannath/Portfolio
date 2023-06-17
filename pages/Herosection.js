@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import { useEffect } from "react";
-export const Herosection = () => {
+function Herosection() {
   const [text, setText] = useState("");
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
@@ -57,4 +57,5 @@ export const Herosection = () => {
       </div>
     </div>
   );
-};
+}
+export default Herosection;

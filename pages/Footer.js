@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "./Divider";
-export const Footer = () => {
+function Footer() {
   return (
     <div>
       <p className="text-center m-5 text-xl">
@@ -9,4 +9,5 @@ export const Footer = () => {
       <i className="fa-brands fa-whatsapp"></i>
     </div>
   );
-};
+}
+export default Footer;

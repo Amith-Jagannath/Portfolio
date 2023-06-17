@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "../components/Skills.module.css";
-export const Skills = () => {
+function Skills() {
   return (
     <div className="mb-32">
       <h2 className="text-center text-3xl">SKILLS</h2>
@@ -48,4 +48,6 @@ export const Skills = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Skills;

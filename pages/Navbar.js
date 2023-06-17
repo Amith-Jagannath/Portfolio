@@ -12,7 +12,7 @@ const MENU_LIST = [
   { text: "Skills", href: "/skills" },
   { text: "Contact", href: "/contact" },
 ];
-const Navbar = () => {
+function Navbar() {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
   const { systemTheme, theme, setTheme } = useTheme();
@@ -76,6 +76,6 @@ const Navbar = () => {
       </nav>
     </header>
   );
-};
+}
 
 export default Navbar;
