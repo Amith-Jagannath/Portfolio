@@ -37,6 +37,8 @@ export const Herosection = () => {
           alt="Picture of the author"
           width={500}
           height={500}
+          className="rounded-full"
+          priority={false}
         />
       </div>
       <div className=" div1 card rounded-none text-center w-1/2">

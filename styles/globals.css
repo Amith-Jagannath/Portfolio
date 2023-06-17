@@ -3,12 +3,13 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 .container1 {
   display: grid;
@@ -167,4 +168,40 @@ nav {
 }
 .resizer:hover {
   width: 550px;
+}
+
+/********************animation************/
+.Loader img {
+  animation: A_logo 2s linear infinite;
+  width: 20%;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Loader {
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+@keyframes A_logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Loader img {
+    width: 100px;
+    height: 100px;
+  }
 }
